@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=AutoHotkey Window Spy
+Comment=Show the title, class and position of windows
+Exec=autohotkey-ux --spy
+Icon=system-search
+Terminal=false
+Categories=Utility;Development;
+StartupWMClass=autohotkey-ux

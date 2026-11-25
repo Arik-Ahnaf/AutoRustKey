@@ -1,0 +1,29 @@
+{
+  "revision": 3,
+  "brief": {
+    "question": "Rebuild AutoHotkeyUX (the AutoHotkey Dash and its tool windows) in Rust with the same look, running on Arch Linux + KDE Plasma.",
+    "purpose": "Port for personal use on Linux",
+    "targets": [
+      "D:\\AutoHotKey\\UX\\AutoHotkeyUX.exe",
+      "D:\\AutoHotKey\\UX\\*.ahk"
+    ],
+    "constraints": [],
+    "done_when": "A Rust/egui app in app/ builds, shows the Dash, New Script, Launch Config, Editor selection and Window Spy windows matching the originals, with Linux equivalents of Windows-only actions."
+  },
+  "plan": [],
+  "hypotheses": [],
+  "findings": [
+    {
+      "id": "fnd_1",
+      "statement": "AutoHotkeyUX.exe is the stock AutoHotkey v2.0.19 64-bit interpreter (version resource; same hash as v2\\AutoHotkey64.exe in installed-files.csv); the visible app (Dash, New Script, Launch Config, Editor, Window Spy) is defined by the .ahk scripts in the UX folder.",
+      "evidence_ids": [
+        "ev_e85b2e79d46459a71e7bbd9b27835bb462470ae34c93509cb91f1a48e98192ca",
+        "ev_05ba7c695522645b31c16f0fa5c7e07a38a187a9f5cdfb89d2b950049fba7856",
+        "ev_e22a85144bbef2f11619efa482a7692547ae6958872da24f023039bab868f0c1"
+      ],
+      "confidence": "observed"
+    }
+  ],
+  "handoff": "Rust/egui rebuild in app/ (Dash, New Script, Launch Config, Editor select, Window Spy, launcher --run, version picker). Builds on Windows; `cargo check --target x86_64-unknown-linux-gnu` passes. rebuild_check round 0 passed (build + screenshot). Original windows pictured in app/shots/original-*.png; ours via `--screenshot f --window dash|new|launch|editor|spy`. Open: Window Spy and file associations untested on real KDE; syntax detection simplified. Next ideas: test on Arch, KDE service menu \"New AutoHotkey script\", tray icon.",
+  "updated": "2026-11-25T14:27:52Z"
+}

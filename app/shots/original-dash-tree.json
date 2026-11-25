@@ -1,0 +1,294 @@
+{
+  "nodes": [
+    {
+      "class": "AutoHotkeyGUI",
+      "depth": 0,
+      "frame": {
+        "h": 355,
+        "w": 807,
+        "x": 556,
+        "y": 362
+      },
+      "role": "Window",
+      "title": "AutoHotkey Dash"
+    },
+    {
+      "class": "SysListView32",
+      "depth": 1,
+      "frame": {
+        "h": 292,
+        "w": 313,
+        "x": 579,
+        "y": 408
+      },
+      "identifier": "3",
+      "role": "List"
+    },
+    {
+      "depth": 2,
+      "frame": {
+        "h": 46,
+        "w": 309,
+        "x": 579,
+        "y": 410
+      },
+      "role": "ListItem",
+      "title": "New script"
+    },
+    {
+      "depth": 2,
+      "frame": {
+        "h": 46,
+        "w": 309,
+        "x": 579,
+        "y": 458
+      },
+      "role": "ListItem",
+      "title": "Compile"
+    },
+    {
+      "depth": 2,
+      "frame": {
+        "h": 46,
+        "w": 309,
+        "x": 579,
+        "y": 506
+      },
+      "role": "ListItem",
+      "title": "Help files (F1)"
+    },
+    {
+      "depth": 2,
+      "frame": {
+        "h": 46,
+        "w": 309,
+        "x": 579,
+        "y": 554
+      },
+      "role": "ListItem",
+      "title": "Window spy"
+    },
+    {
+      "depth": 2,
+      "frame": {
+        "h": 46,
+        "w": 309,
+        "x": 579,
+        "y": 602
+      },
+      "role": "ListItem",
+      "title": "Launch settings"
+    },
+    {
+      "depth": 2,
+      "frame": {
+        "h": 46,
+        "w": 309,
+        "x": 579,
+        "y": 650
+      },
+      "role": "ListItem",
+      "title": "Editor settings"
+    },
+    {
+      "class": "Static",
+      "depth": 1,
+      "frame": {
+        "h": 28,
+        "w": 87,
+        "x": 906,
+        "y": 408
+      },
+      "identifier": "5",
+      "role": "Text",
+      "title": "Welcome!"
+    },
+    {
+      "class": "Static",
+      "depth": 1,
+      "frame": {
+        "h": 20,
+        "w": 434,
+        "x": 906,
+        "y": 444
+      },
+      "identifier": "6",
+      "role": "Text",
+      "title": "This is the Dash. It provides access to tools, settings and help files."
+    },
+    {
+      "class": "Static",
+      "depth": 1,
+      "frame": {
+        "h": 20,
+        "w": 271,
+        "x": 906,
+        "y": 472
+      },
+      "identifier": "7",
+      "role": "Text",
+      "title": "To learn how to use AutoHotkey, refer to:"
+    },
+    {
+      "class": "SysLink",
+      "depth": 1,
+      "frame": {
+        "h": 120,
+        "w": 198,
+        "x": 906,
+        "y": 500
+      },
+      "identifier": "8",
+      "role": "Hyperlink",
+      "title": "• Using the Program\n    • How to Write Hotkeys\n    • How to Send Keystrokes\n    • How to Run Programs\n    • How to Manage Windows\n    • Quick Reference"
+    },
+    {
+      "depth": 2,
+      "frame": {
+        "h": 120,
+        "w": 198,
+        "x": 906,
+        "y": 500
+      },
+      "role": "Hyperlink"
+    },
+    {
+      "depth": 2,
+      "frame": {
+        "h": 120,
+        "w": 198,
+        "x": 906,
+        "y": 500
+      },
+      "role": "Hyperlink"
+    },
+    {
+      "depth": 2,
+      "frame": {
+        "h": 120,
+        "w": 198,
+        "x": 906,
+        "y": 500
+      },
+      "role": "Hyperlink"
+    },
+    {
+      "depth": 2,
+      "frame": {
+        "h": 120,
+        "w": 198,
+        "x": 906,
+        "y": 500
+      },
+      "role": "Hyperlink"
+    },
+    {
+      "depth": 2,
+      "frame": {
+        "h": 120,
+        "w": 198,
+        "x": 906,
+        "y": 500
+      },
+      "role": "Hyperlink"
+    },
+    {
+      "depth": 2,
+      "frame": {
+        "h": 120,
+        "w": 198,
+        "x": 906,
+        "y": 500
+      },
+      "role": "Hyperlink"
+    },
+    {
+      "class": "Button",
+      "depth": 1,
+      "frame": {
+        "h": 20,
+        "w": 188,
+        "x": 906,
+        "y": 673
+      },
+      "identifier": "9",
+      "role": "CheckBox",
+      "title": "Show this info next time"
+    },
+    {
+      "depth": 1,
+      "frame": {
+        "h": 29,
+        "w": 789,
+        "x": 565,
+        "y": 371
+      },
+      "identifier": "TitleBar",
+      "role": "TitleBar",
+      "title": "AutoHotkey Dash"
+    },
+    {
+      "depth": 2,
+      "frame": {
+        "h": 28,
+        "w": 28,
+        "x": 565,
+        "y": 371
+      },
+      "identifier": "SystemMenuBar",
+      "role": "MenuBar",
+      "title": "System Menu Bar"
+    },
+    {
+      "depth": 3,
+      "frame": {
+        "h": 28,
+        "w": 28,
+        "x": 565,
+        "y": 371
+      },
+      "identifier": "Item 1",
+      "role": "MenuItem",
+      "title": "System"
+    },
+    {
+      "depth": 2,
+      "frame": {
+        "h": 37,
+        "w": 60,
+        "x": 1176,
+        "y": 363
+      },
+      "identifier": "Minimize",
+      "role": "Button",
+      "title": "Minimize"
+    },
+    {
+      "depth": 2,
+      "enabled": false,
+      "frame": {
+        "h": 37,
+        "w": 59,
+        "x": 1236,
+        "y": 363
+      },
+      "identifier": "Maximize",
+      "role": "Button",
+      "title": "Maximize"
+    },
+    {
+      "depth": 2,
+      "frame": {
+        "h": 37,
+        "w": 60,
+        "x": 1295,
+        "y": 363
+      },
+      "identifier": "Close",
+      "role": "Button",
+      "title": "Close"
+    }
+  ],
+  "truncated": false,
+  "windows": 1
+}

@@ -1,0 +1,643 @@
+{
+  "id": "ev_e85b2e79d46459a71e7bbd9b27835bb462470ae34c93509cb91f1a48e98192ca",
+  "subject": {
+    "kind": "pe",
+    "sha256": "3880f9ec464dfe78c16bbd8b9f30560227154c292280337346a30c8fd92871fe",
+    "name": "AutoHotkeyUX.exe"
+  },
+  "operation": "native_pe_resources_list",
+  "params": {
+    "max_entries": 16384,
+    "path": null
+  },
+  "result": {
+    "entries": [
+      {
+        "codepage": 0,
+        "file_offset": 1278816,
+        "language": 1033,
+        "name": "212",
+        "rva": "0x140360",
+        "sha256": "86286a59831ad1d0d84eb411ae6fa236b21bca5d3ebfc93a59cf4b6bf1d466d0",
+        "size": 72,
+        "type": "RT_ACCELERATOR"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1278192,
+        "language": 1033,
+        "name": "205",
+        "rva": "0x1400f0",
+        "sha256": "ffa9c8ef0bc17102bd0afd2d82569ec0c1d1bc9b960183c191f5753f5c105703",
+        "size": 224,
+        "type": "RT_DIALOG"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1278416,
+        "language": 1033,
+        "name": "500",
+        "rva": "0x1401d0",
+        "sha256": "02c3c93be0afd7f1c05327dbe650b6514b8e7c468733d7fe2c78c25b3aeccd5b",
+        "size": 398,
+        "type": "RT_DIALOG"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1254672,
+        "language": 1033,
+        "name": "159",
+        "rva": "0x13a510",
+        "sha256": "48523ac82d2330704737c7acba2691a35e6255c2c8f44704a0f76dcbc7aa70f8",
+        "size": 118,
+        "type": "RT_GROUP_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1278128,
+        "language": 1033,
+        "name": "160",
+        "rva": "0x1400b0",
+        "sha256": "0f60c796453a424ba91f01710162395f52287aefd2dabfe9f6c3cb7ea90d6fed",
+        "size": 62,
+        "type": "RT_GROUP_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1257464,
+        "language": 1033,
+        "name": "206",
+        "rva": "0x13aff8",
+        "sha256": "2407a1db2e60b58687d2ab4f936205a80833cc1c29331896b678cea298b29b7e",
+        "size": 76,
+        "type": "RT_GROUP_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1259920,
+        "language": 1033,
+        "name": "207",
+        "rva": "0x13b990",
+        "sha256": "0894c6ebf577910dbeafa70b6167b9d39b2e80a1965d96ff8dabfea8799d0f42",
+        "size": 76,
+        "type": "RT_GROUP_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1262272,
+        "language": 1033,
+        "name": "208",
+        "rva": "0x13c2c0",
+        "sha256": "bbf948d6ecb3a0dc2af289573953839b9a09e04a1cf5b5708ffad5dd2c1e7bbb",
+        "size": 76,
+        "type": "RT_GROUP_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1249224,
+        "language": 1033,
+        "name": "1",
+        "rva": "0x138fc8",
+        "sha256": "8f5cb2266f8445405c75921de831112f60a2262041ed60039e0871bffd6d7203",
+        "size": 580,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1255416,
+        "language": 1033,
+        "name": "10",
+        "rva": "0x13a7f8",
+        "sha256": "8d6d8a637a5f657b305fddd9d66596005909bf53d5ab3d518923b1c3dca7652f",
+        "size": 411,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1255832,
+        "language": 1033,
+        "name": "11",
+        "rva": "0x13a998",
+        "sha256": "942cf5c52660c7a527c9517493b60b4f60eb71dcfca736f0f8e8185cb5be2d0f",
+        "size": 472,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1256304,
+        "language": 1033,
+        "name": "12",
+        "rva": "0x13ab70",
+        "sha256": "7cf0fd6c17edcc198c60512f8421b4c1fe2d9fd28c73c4f4488e8a3be7b0c438",
+        "size": 554,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1256864,
+        "language": 1033,
+        "name": "13",
+        "rva": "0x13ada0",
+        "sha256": "47669513bb1877096089bb363dcaf8daf877274381e8f6f2e4fb9e89f4b83a44",
+        "size": 594,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1257544,
+        "language": 1033,
+        "name": "14",
+        "rva": "0x13b048",
+        "sha256": "dc3085cae57efefe7ff1b589740823f72eed1f5d20e6f5958479d8472a31237d",
+        "size": 366,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1257912,
+        "language": 1033,
+        "name": "15",
+        "rva": "0x13b1b8",
+        "sha256": "625e6ebc94122061e7bae32a778e666694569aa95a37093481c7d8df404bcf8c",
+        "size": 432,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1258344,
+        "language": 1033,
+        "name": "16",
+        "rva": "0x13b368",
+        "sha256": "41db533b488d82833c324b20c9ba4e0ad6b0ce88aea4d80b93db7d017f01242e",
+        "size": 493,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1258840,
+        "language": 1033,
+        "name": "17",
+        "rva": "0x13b558",
+        "sha256": "8543aca233240bd4b3c2f4f9d334afb94498f17fab05f0d75604bc52d15c6d2c",
+        "size": 554,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1259400,
+        "language": 1033,
+        "name": "18",
+        "rva": "0x13b788",
+        "sha256": "0f294cc35adb7f211ba0a6df3883c4df3d1433ddecba1c55ddc2c12bdb12647d",
+        "size": 515,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1260000,
+        "language": 1033,
+        "name": "19",
+        "rva": "0x13b9e0",
+        "sha256": "b027d29c6b1e9ec2576b1e84e116c4142c0a52c28106dbde21184ae4c018d554",
+        "size": 355,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1249808,
+        "language": 1033,
+        "name": "2",
+        "rva": "0x139210",
+        "sha256": "efe628398ba9727fe5341b60615e17b10977f05bce50adf6af5d4d1da7c740d2",
+        "size": 407,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1260360,
+        "language": 1033,
+        "name": "20",
+        "rva": "0x13bb48",
+        "sha256": "8f9a3ea6252e894176a5b0c1fe743f00d7c27d659682d3be5ca68bee7962b60c",
+        "size": 415,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1260776,
+        "language": 1033,
+        "name": "21",
+        "rva": "0x13bce8",
+        "sha256": "e1022f2f3acdbe70f624fbee8d99b9ced7d97f6761be5fda371e6b2c4ddfbad9",
+        "size": 470,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1261248,
+        "language": 1033,
+        "name": "22",
+        "rva": "0x13bec0",
+        "sha256": "cd65509518e02434177b8bb71aa67018fbdfd9f5141cfe9c7c02f85a56086c33",
+        "size": 527,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1261776,
+        "language": 1033,
+        "name": "23",
+        "rva": "0x13c0d0",
+        "sha256": "27322b9ead450123f89ef52e2f8d9738d90b28d423278e9104d9b34d22972c2e",
+        "size": 496,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1262352,
+        "language": 1033,
+        "name": "24",
+        "rva": "0x13c310",
+        "sha256": "028ea5589efb612bc2129a09b3e3ce73ab811de0344e9ef58a4b85af5fb3ca40",
+        "size": 4264,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1266616,
+        "language": 1033,
+        "name": "25",
+        "rva": "0x13d3b8",
+        "sha256": "8a5ac6abb43180226052148a21c3b919701cfdf797b43b39ba2611d5230d3e80",
+        "size": 9640,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1276256,
+        "language": 1033,
+        "name": "26",
+        "rva": "0x13f960",
+        "sha256": "2c1bb9b12fb5684a5c1b89aca9e3870e658e12fc1c0e5bca453b18c93518862c",
+        "size": 1128,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1277384,
+        "language": 1033,
+        "name": "27",
+        "rva": "0x13fdc8",
+        "sha256": "4b7f70d81e67bec9132a9d008a81be3717e430f6422c07cc5e5edf6e10783cba",
+        "size": 744,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1250216,
+        "language": 1033,
+        "name": "3",
+        "rva": "0x1393a8",
+        "sha256": "18fc0f58bc71965f32e49f236adc23ee32155a8d00c805838692a3f98cffb1f9",
+        "size": 465,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1250688,
+        "language": 1033,
+        "name": "4",
+        "rva": "0x139580",
+        "sha256": "53f2680efff7f2fb903f30bf590e8fb8111053f382011deaed2f6f90607d0a5e",
+        "size": 553,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1251248,
+        "language": 1033,
+        "name": "5",
+        "rva": "0x1397b0",
+        "sha256": "7e4f77e0f5362354999d079e0f27f864c2a277922ce727da05d837c136cc146f",
+        "size": 623,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1251872,
+        "language": 1033,
+        "name": "6",
+        "rva": "0x139a20",
+        "sha256": "48f08d3608f503a2d816727054dd09d8f2f42f079592a63f1de366224ba3af30",
+        "size": 802,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1252680,
+        "language": 1033,
+        "name": "7",
+        "rva": "0x139d48",
+        "sha256": "66f975428676309833a756c08a8baa591a61e24256e6227b194d42ec660473c4",
+        "size": 939,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1253624,
+        "language": 1033,
+        "name": "8",
+        "rva": "0x13a0f8",
+        "sha256": "74a5a43f25592d2ce093f28b4c0a459a7726f9dbec604832e69ee50805474baa",
+        "size": 1043,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1254792,
+        "language": 1033,
+        "name": "9",
+        "rva": "0x13a588",
+        "sha256": "b6fbf3ceb35024a07fd66ee0824d2cef959ab17a1b68200710f3b0c880f72f32",
+        "size": 619,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1247200,
+        "language": 1033,
+        "name": "1",
+        "rva": "0x1387e0",
+        "sha256": "1ac065102b08a083e659f8c0bc22d36e611e9a3fd59af54f3e24a5759ad27e5f",
+        "size": 1305,
+        "type": "RT_MANIFEST"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1248512,
+        "language": 1033,
+        "name": "211",
+        "rva": "0x138d00",
+        "sha256": "c0306fb5f7462e74df09e5e0627c01a238f291bbdc89c24c0ea1f46e7341ab5a",
+        "size": 712,
+        "type": "RT_MENU"
+      },
+      {
+        "codepage": 0,
+        "file_offset": 1278888,
+        "language": 1033,
+        "name": "1",
+        "rva": "0x1403a8",
+        "sha256": "3f0163834c2d6fbc1850f33b4fbf741a0eeddcdf594b453d3de151fee0e8187a",
+        "size": 536,
+        "type": "RT_VERSION"
+      }
+    ],
+    "icon_groups": [
+      {
+        "icons": [
+          {
+            "bit_count": 32,
+            "bytes": 580,
+            "height": 32,
+            "icon_id": 1,
+            "width": 32
+          },
+          {
+            "bit_count": 32,
+            "bytes": 407,
+            "height": 16,
+            "icon_id": 2,
+            "width": 16
+          },
+          {
+            "bit_count": 32,
+            "bytes": 465,
+            "height": 20,
+            "icon_id": 3,
+            "width": 20
+          },
+          {
+            "bit_count": 32,
+            "bytes": 553,
+            "height": 24,
+            "icon_id": 4,
+            "width": 24
+          },
+          {
+            "bit_count": 32,
+            "bytes": 623,
+            "height": 28,
+            "icon_id": 5,
+            "width": 28
+          },
+          {
+            "bit_count": 32,
+            "bytes": 802,
+            "height": 40,
+            "icon_id": 6,
+            "width": 40
+          },
+          {
+            "bit_count": 32,
+            "bytes": 939,
+            "height": 48,
+            "icon_id": 7,
+            "width": 48
+          },
+          {
+            "bit_count": 32,
+            "bytes": 1043,
+            "height": 64,
+            "icon_id": 8,
+            "width": 64
+          }
+        ],
+        "name": "159"
+      },
+      {
+        "icons": [
+          {
+            "bit_count": 32,
+            "bytes": 4264,
+            "height": 32,
+            "icon_id": 24,
+            "width": 32
+          },
+          {
+            "bit_count": 32,
+            "bytes": 9640,
+            "height": 48,
+            "icon_id": 25,
+            "width": 48
+          },
+          {
+            "bit_count": 32,
+            "bytes": 1128,
+            "height": 16,
+            "icon_id": 26,
+            "width": 16
+          },
+          {
+            "bit_count": 4,
+            "bytes": 744,
+            "height": 32,
+            "icon_id": 27,
+            "width": 32
+          }
+        ],
+        "name": "160"
+      },
+      {
+        "icons": [
+          {
+            "bit_count": 32,
+            "bytes": 619,
+            "height": 32,
+            "icon_id": 9,
+            "width": 32
+          },
+          {
+            "bit_count": 32,
+            "bytes": 411,
+            "height": 16,
+            "icon_id": 10,
+            "width": 16
+          },
+          {
+            "bit_count": 32,
+            "bytes": 472,
+            "height": 20,
+            "icon_id": 11,
+            "width": 20
+          },
+          {
+            "bit_count": 32,
+            "bytes": 554,
+            "height": 24,
+            "icon_id": 12,
+            "width": 24
+          },
+          {
+            "bit_count": 32,
+            "bytes": 594,
+            "height": 28,
+            "icon_id": 13,
+            "width": 28
+          }
+        ],
+        "name": "206"
+      },
+      {
+        "icons": [
+          {
+            "bit_count": 32,
+            "bytes": 366,
+            "height": 16,
+            "icon_id": 14,
+            "width": 16
+          },
+          {
+            "bit_count": 32,
+            "bytes": 432,
+            "height": 20,
+            "icon_id": 15,
+            "width": 20
+          },
+          {
+            "bit_count": 32,
+            "bytes": 493,
+            "height": 24,
+            "icon_id": 16,
+            "width": 24
+          },
+          {
+            "bit_count": 32,
+            "bytes": 554,
+            "height": 28,
+            "icon_id": 17,
+            "width": 28
+          },
+          {
+            "bit_count": 32,
+            "bytes": 515,
+            "height": 32,
+            "icon_id": 18,
+            "width": 32
+          }
+        ],
+        "name": "207"
+      },
+      {
+        "icons": [
+          {
+            "bit_count": 32,
+            "bytes": 355,
+            "height": 16,
+            "icon_id": 19,
+            "width": 16
+          },
+          {
+            "bit_count": 32,
+            "bytes": 415,
+            "height": 20,
+            "icon_id": 20,
+            "width": 20
+          },
+          {
+            "bit_count": 32,
+            "bytes": 470,
+            "height": 24,
+            "icon_id": 21,
+            "width": 24
+          },
+          {
+            "bit_count": 32,
+            "bytes": 527,
+            "height": 28,
+            "icon_id": 22,
+            "width": 28
+          },
+          {
+            "bit_count": 32,
+            "bytes": 496,
+            "height": 32,
+            "icon_id": 23,
+            "width": 32
+          }
+        ],
+        "name": "208"
+      }
+    ],
+    "manifest": "<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\" xmlns:v3=\"urn:schemas-microsoft-com:asm.v3\"><assemblyIdentity version=\"2.0.00.00\" name=\"AutoHotkey\" type=\"win32\" /><dependency><dependentAssembly><assemblyIdentity type=\"win32\" name=\"Microsoft.Windows.Common-Controls\" version=\"6.0.0.0\" processorArchitecture=\"*\" publicKeyToken=\"6595b64144ccf1df\" language=\"*\" /></dependentAssembly></dependency><compatibility xmlns=\"urn:schemas-microsoft-com:compatibility.v1\"><application><supportedOS Id=\"{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}\"/><supportedOS Id=\"{1f676c76-80e1-4239-95bb-83d0f6d0da78}\"/><supportedOS Id=\"{e2011457-1546-43c5-a5fe-008deee3d3f0}\"/><supportedOS Id=\"{35138b9a-5d96-4fbd-8e2d-a2440225f93a}\"/><supportedOS Id=\"{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}\"/><maxversiontested Id=\"10.0.18362.0\"/></application></compatibility><v3:application><v3:windowsSettings xmlns=\"http://schemas.microsoft.com/SMI/2005/WindowsSettings\" xmlns:ws2=\"http://schemas.microsoft.com/SMI/2016/WindowsSettings\"><dpiAware>true</dpiAware><ws2:longPathAware>true</ws2:longPathAware></v3:windowsSettings></v3:application><v3:trustInfo><v3:security><v3:requestedPrivileges><v3:requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\" /></v3:requestedPrivileges></v3:security></v3:trustInfo></assembly> ",
+    "truncated": false,
+    "version": {
+      "file_version": "2.0.19.0",
+      "product_version": "2.0.19.0",
+      "strings": {
+        "CompanyName": "AutoHotkey Foundation LLC",
+        "FileDescription": "AutoHotkey 64-bit",
+        "FileVersion": "2.0.19",
+        "ProductName": "AutoHotkey",
+        "ProductVersion": "2.0.19"
+      }
+    }
+  },
+  "summary": "38 resources, 5 icon groups, product \"AutoHotkey\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 38,
+    "total": 38
+  },
+  "locations": [],
+  "links": []
+}

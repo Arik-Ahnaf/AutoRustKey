@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=AutoHotkey Dash
+Comment=Tools, settings and help for AutoHotkey
+Exec=autohotkey-ux
+Icon=preferences-desktop-keyboard-shortcuts
+Terminal=false
+Categories=Utility;Development;
+StartupWMClass=autohotkey-ux

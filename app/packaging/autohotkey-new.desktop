@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=AutoHotkey Script...
+Comment=Enter a script name:
+Type=Link
+URL=.source/AutoHotkey Script.ahk
+Icon=text-x-script

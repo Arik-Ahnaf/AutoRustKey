@@ -1,0 +1,14 @@
+{
+  "id": "unk_d64fae5db233d4d3",
+  "revision": 2,
+  "question": "How should Window Spy read other windows on KDE Plasma (Wayland blocks global window/mouse inspection)?",
+  "severity": "medium",
+  "domain": "platform",
+  "status": "blocked",
+  "probes": [
+    "Test on Arch KDE with kdotool installed (Wayland) and xdotool/xprop (X11)"
+  ],
+  "evidence_for": [],
+  "evidence_against": [],
+  "resolution": "Implemented with kdotool on KDE Wayland and xdotool/xprop/ImageMagick on X11 (title, class, process, pid, id, mouse and window positions; colour only on X11). Status bar / control text have no Linux equivalent and stay empty. Needs a test on a real Arch KDE machine; this Windows workspace can't run it."
+}

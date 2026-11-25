@@ -1,0 +1,14 @@
+{
+  "id": "unk_d334732c34c3cb64",
+  "revision": 2,
+  "question": "The original's syntax-based version detection uses a large PCRE regex with backtracking verbs that Rust's regex engine can't run; how close is a simplified heuristic?",
+  "severity": "low",
+  "domain": "launcher",
+  "status": "investigating",
+  "probes": [
+    "Run both on a corpus of v1 and v2 scripts and compare"
+  ],
+  "evidence_for": [],
+  "evidence_against": [],
+  "resolution": "Replaced by a simplified line-marker count (v1: legacy commands with commas, '=' assignment, ByRef, #NoEnv...; v2: '=>', function-call commands, #HotIf, '&' params...), same decision rule (pick only when one version's marks appear). A sample v1 script was identified as v1 and the installed v2 scripts resolve via #Requires. Not compared against the original on a large corpus — estimated."
+}

@@ -1,0 +1,24 @@
+# Rust / Cargo build artifacts
+/app/target/
+**/target/
+**/*.rs.bk
+**/*.pdb
+
+# Arch Linux makepkg artifacts
+/app/pkg/
+*.pkg.tar.zst
+*.pkg.tar.xz
+
+# Logs & temporary files
+*.log
+*.tmp
+*.bak
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo

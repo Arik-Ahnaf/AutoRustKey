@@ -1,0 +1,63 @@
+{
+  "id": "ev_dc91cf689ce28f3cfe32b2b1e0929e53f092c06bd92b6208a2c6c2719cb57883",
+  "subject": {
+    "kind": "pe",
+    "sha256": "3880f9ec464dfe78c16bbd8b9f30560227154c292280337346a30c8fd92871fe",
+    "name": "AutoHotkeyUX.exe"
+  },
+  "operation": "native_bytes_find",
+  "params": {
+    "encoding": "both",
+    "limit": 100,
+    "offset": 0,
+    "path": null,
+    "pattern": null,
+    "text": "ui-dash"
+  },
+  "result": {
+    "file_size": 1279488,
+    "limit": 100,
+    "match_cap_reached": false,
+    "matches": [],
+    "native_container": "pe",
+    "offset": 0,
+    "path": "D:\\AutoHotKey\\UX\\AutoHotkeyUX.exe",
+    "searched_for": [
+      {
+        "kind": "utf8",
+        "length": 7
+      },
+      {
+        "kind": "utf16le",
+        "length": 14
+      }
+    ],
+    "total_matches": 0
+  },
+  "summary": "0 match(es) for utf8 + utf16le in AutoHotkeyUX.exe.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "file_bytes_only",
+      "message": "The file's bytes are searched as stored: compressed, encrypted or packed regions and data built at run time are not seen, so no match is not proof of absence."
+    },
+    {
+      "code": "unmapped_regions",
+      "message": "Matches in headers, overlays or debug data that are not loaded into memory have no virtual address."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 0,
+    "total": 0
+  },
+  "locations": [],
+  "links": []
+}

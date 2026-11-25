@@ -1,0 +1,83 @@
+{
+  "id": "ev_05ba7c695522645b31c16f0fa5c7e07a38a187a9f5cdfb89d2b950049fba7856",
+  "subject": {
+    "kind": "pe",
+    "sha256": "3880f9ec464dfe78c16bbd8b9f30560227154c292280337346a30c8fd92871fe",
+    "name": "AutoHotkeyUX.exe"
+  },
+  "operation": "native_function_pseudocode",
+  "params": {
+    "function": "0x140045e00"
+  },
+  "result": {
+    "calls": [
+      "GetFullPathNameW",
+      "GetModuleFileNameW",
+      "sub_140010df0",
+      "sub_14009daf0",
+      "sub_1400a1390",
+      "sub_1400a26f0",
+      "sub_1400c03b4",
+      "sub_1400deb90",
+      "sub_1400e2590"
+    ],
+    "engine": "clean-room lifter",
+    "entry": "0x140045e00",
+    "function": "sub_140045e00",
+    "gotos": 21,
+    "inline_asm": 2,
+    "pseudo_code": "int64_t sub_140045e00(int64_t rcx)\n{\n    stack_10 = rbx;\n    stack_8 = rcx;\n    rbp = &stack_ff20;\n    eax = 0x10020;\n    rax = sub_1400deb90();\n    r12 = rdx;\n    r15 = rcx;\n    rax = GetModuleFileNameW(0, &stack_20, 0x8000);\n    ebx = 0;\n    arg_ff70 = rax;\n    r13 = &data_140100be0;\n    rdi = -1;\n    if (rax == 0) {\nlabel_140045f7a:\n        if (r12 != 0) {\nlabel_140045feb:\n            if (*(uint16_t*)(r12) != 0x2a) {\n                rax = &stack_20;\n                *(uint32_t*)(r15 + 0x798) = ebx;\n                if (r12 == rax) {\nlabel_140046028:\n                    if (stack_20 == 0) {\n                        rsi = r13;\nlabel_1400460dc:\n                        *(uint64_t*)(r15 + 0x760) = rsi;\n                        rax = sub_1400c03b4(&stack_20, 0x5c);\n                        rsi = rax;\n                        if (rax == 0) {\n                            rax = *(uint64_t*)0x14012aba0;\n                            rsi = &stack_20;\n                            *(uint64_t*)(r15 + 0x768) = rax;\nlabel_1400461bd:\n                            if (*(uint16_t*)(rsi) == 0) {\nlabel_14004617b:\n                                r14 = r13;\nlabel_14004617e:\n                                *(uint64_t*)(r15 + 0x770) = r14;\n                                rdx = &data_140100cb0;\n                                rcx = rbx;\n                                while (true) {\n                                    eax = *(uint16_t*)(r12 + rcx * 2);\n                                    rcx++;\n                                    if (ax != *(uint16_t*)(rdx + rcx * 2 - 2)) {\n                                        goto label_14004620f;\n                                    } else {\n                                        if (rcx != 4) {\n                                            continue;\n                                        } else {\n                                            goto label_1400461a5;\n                                        }\n                                        break;\n                                    }\n                                    break;\n                                }\nlabel_14004623b:\n                                if (stack_20 == 0) {\nlabel_14004628b:\n                                    *(uint64_t*)(r15 + 0x790) = r13;\n                                    eax = 1;\n                                    rbx = stack_10068;\n                                    return rax;\n                                } else {\n                                    rax = &stack_20;\n                                    while (true) {\n                                        rdi++;\n                                        if (*(uint16_t*)(rax + rdi * 2) == 0) break;\n                                    }\n                                    rbx = rdi + rdi;\n                                    rax = sub_14009daf0(rbx + 2);\n                                    r13 = rax;\n                                    if (rax == 0) {\n                                        sub_140010df0();\n                                        __debugbreak();\n                                    } else {\n                                        if (rdi != 0) {\n                                            sub_1400e2590(rax, &stack_20, rbx);\n                                        }\n                                        eax = 0;\n                                        *(uint16_t*)(rbx + r13) = ax;\n                                        goto label_14004628b;\n                                    }\n                                }\n                            } else {\n                                rbx = rdi;\n                                while (true) {\n                                    rbx++;\n                                    if (*(uint16_t*)(rsi + rbx * 2) == 0) break;\n                                }\n                                r15 = rbx + rbx;\n                                rax = sub_14009daf0(r15 + 2);\n                                r14 = rax;\n                                if (rax == 0) {\n                                    sub_140010df0();\n                                    __debugbreak();\n                                } else {\n                                    if (rbx != 0) {\n                                        sub_1400e2590(rax, rsi, r15);\n                                    }\n                                    ebx = 0;\n                                    *(uint16_t*)(r15 + r14) = bx;\n                                    r15 = arg_ff60;\n                                    goto label_14004617e;\n                                }\n                            }\n                        } else {\n                            rax = &stack_20;\n                            rbx = rsi;\n                            rbx -= rax;\n                            rbx >>= 1;\n                            if (stack_20 == 0) {\n                                r14 = r13;\n                                ebx = 0;\nlabel_14004616e:\n                                *(uint64_t*)(r15 + 0x768) = r14;\n                                rsi += 2;\n                                if (rsi != 0) {\n                                    goto label_1400461bd;\n                                } else {\n                                    goto label_14004617b;\n                                }\n                            } else {\n                                if (rbx == rdi) {\n                                    rax = &stack_20;\n                                    rbx = rdi;\n                                    while (true) {\n                                        rbx++;\n                                        if (*(uint16_t*)(rax + rbx * 2) == 0) break;\n                                    }\n                                }\n                                r15 = rbx + rbx;\n                                rax = sub_14009daf0(r15 + 2);\n                                r14 = rax;\n                                if (rax == 0) {\n                                    sub_140010df0();\n                                    __debugbreak();\n                                } else {\n                                    if (rbx != 0) {\n                                        sub_1400e2590(rax, &stack_20, r15);\n                                    }\n                                    ebx = 0;\n                                    *(uint16_t*)(r15 + r14) = bx;\n                                    r15 = arg_ff60;\n                                    goto label_14004616e;\n                                }\n                            }\n                        }\n                    } else {\n                        rax = &stack_20;\n                        rbx = rdi;\n                        while (true) {\n                            rbx++;\n                            if (*(uint16_t*)(rax + rbx * 2) == 0) break;\n                        }\n                        r14 = rbx + rbx;\n                        rax = sub_14009daf0(r14 + 2);\n                        rsi = rax;\n                        if (rax == 0) {\n                            sub_140010df0();\n                            __debugbreak();\n                        } else {\n                            if (rbx != 0) {\n                                sub_1400e2590(rax, &stack_20, r14);\n                            }\n                            ebx = 0;\n                            *(uint16_t*)(r14 + rsi) = bx;\n                            goto label_1400460dc;\n                        }\n                    }\n                } else {\n                    rax = GetFullPathNameW(r12, 0x8000, &stack_20, 0);\n                    arg_ff70 = rax;\n                    rax--;\n                    if (rax > 0x7ffe /* unsigned */) {\nlabel_1400460d2:\n                        eax = 0;\n                        rbx = stack_10068;\n                        return rax;\n                    } else {\n                        sub_1400a26f0(&stack_20, rdx, &arg_ff70);\n                        goto label_140046028;\n                    }\n                }\n            } else {\n                if (*(uint16_t*)(r12 + 2) != 0) {\n                    *(uint8_t*)0x1401241f4 = 0;\n                    eax = 1;\n                } else {\n                    stack_20 = 0x2a;\n                    eax = 2;\n                    *(uint32_t*)0x1401241e4 = ebx;\n                }\n                *(uint32_t*)(r15 + 0x798) = eax;\n                goto label_140046028;\n            }\n        } else {\n            rax = sub_1400c03b4(&stack_20, r12 + 0x5c);\n            if (rax == 0) {\n                goto label_1400460d2;\n            } else {\n                rax = sub_1400c03b4(rax, r12 + 0x2e);\n                rdx = rax;\n                if (rax == 0) {\n                    goto label_1400460d2;\n                } else {\n                    rax = &stack_20;\n                    rcx = rdx;\n                    rcx -= rax;\n                    rcx >>= 1;\n                    rcx += 5;\n                    if (rcx >= 0x8000 /* unsigned */) {\n                        goto label_1400460d2;\n                    } else {\n                        __asm(\"movsd xmm0, [0x140109630]\");\n                        r12 = &stack_20;\n                        __asm(\"movsd [rdx], xmm0\");\n                        eax = *(uint16_t*)0x140109638;\n                        *(uint16_t*)(rdx + 8) = ax;\n                        goto label_140045feb;\n                    }\n                }\n            }\n        }\n    } else {\n        if (rax == 0x8000) {\n            goto label_1400460d2;\n        } else {\n            sub_1400a26f0(&stack_20, rdx, &arg_ff70);\n            rbx = arg_ff70;\n            if (stack_20 == 0) {\n                rsi = r13;\nlabel_140045ee4:\n                *(uint64_t*)(r15 + 0x780) = rsi;\n                rax = sub_1400c03b4(&stack_20, 0x5c);\n                rbx = rax;\n                if (rax == 0) {\n                    ebx = 0;\n                    goto label_140045f7a;\n                } else {\n                    rax = &stack_20;\n                    rbx -= rax;\n                    rbx >>= 1;\n                    if (stack_20 == 0) {\n                        rsi = r13;\n                        *(uint64_t*)(r15 + 0x788) = r13;\n                        ebx = 0;\n                        goto label_140045f7a;\n                    } else {\n                        if (rbx == rdi) {\n                            rax = &stack_20;\n                            rbx = rdi;\n                            while (true) {\n                                rbx++;\n                                if (*(uint16_t*)(rax + rbx * 2) == 0) break;\n                            }\n                        }\n                        r14 = rbx + rbx;\n                        rax = sub_14009daf0(r14 + 2);\n                        rsi = rax;\n                        if (rax == 0) {\n                            sub_140010df0();\n                            __debugbreak();\n                        } else {\n                            if (rbx != 0) {\n                                sub_1400e2590(rax, &stack_20, r14);\n                            }\n                            ebx = 0;\n                            *(uint16_t*)(r14 + rsi) = bx;\n                            *(uint64_t*)(r15 + 0x788) = rsi;\n                            goto label_140045f7a;\n                        }\n                    }\n                }\n            } else {\n                if (rbx == rdi) {\n                    rax = &stack_20;\n                    rbx = rdi;\n                    while (true) {\n                        rbx++;\n                        if (*(uint16_t*)(rax + rbx * 2) == 0) break;\n                    }\n                }\n                r14 = rbx + rbx;\n                rax = sub_14009daf0(r14 + 2);\n                rsi = rax;\n                if (rax == 0) {\n                    sub_140010df0();\n                    __debugbreak();\n                } else {\n                    if (rbx != 0) {\n                        sub_1400e2590(rax, &stack_20, r14);\n                    }\n                    eax = 0;\n                    *(uint16_t*)(r14 + rsi) = ax;\n                    goto label_140045ee4;\n                }\n            }\n        }\n    }\nlabel_1400461a5:\n    goto label_14004623b;\nlabel_14004620f:\n    rax = \"AutoHotkey v2.0.19\";\n    r12 = rax;\n    sub_1400a1390(&stack_20, 0x8000, \" - %s\", r12);\n    goto label_14004623b;\n}\n",
+    "signature": "int64_t sub_140045e00(int64_t rcx)",
+    "strings": [
+      "AutoHotkey v2.0.19",
+      " - %s"
+    ],
+    "structured": false
+  },
+  "summary": "Pseudo-C for sub_140045e00 (308 lines, partly unstructured).",
+  "confidence": "inferred",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "register_level",
+      "message": "variables are machine registers and stack slots; types are not recovered"
+    },
+    {
+      "code": "calling_convention_assumed",
+      "message": "call arguments follow the usual x86_64 convention and may be wrong for unusual functions"
+    },
+    {
+      "code": "conditions_from_flags",
+      "message": "branch conditions are rebuilt from the last compare and may be approximate"
+    },
+    {
+      "code": "unstructured_flow",
+      "message": "21 gotos remain where the control flow isn't a simple if/loop"
+    },
+    {
+      "code": "inline_asm",
+      "message": "2 instructions have no C rule and are shown as __asm(...)"
+    },
+    {
+      "code": "deep_engine_unavailable",
+      "message": "Ghidra couldn't open this program (could not start Ghidra: Ghidra's analysis failed; see C:\\Users\\XENYTE\\AppData\\Roaming\\craft-anything\\engines\\ghidra-cache\\3880f9ec464dfe78-f2dfab6faedc84f0.log). So this came from the built-in decompiler, which is less exact."
+    }
+  ],
+  "coverage": {
+    "status": "unknown"
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x140045e00"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}

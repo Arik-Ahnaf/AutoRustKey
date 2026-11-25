@@ -1,0 +1,34 @@
+# Build and install on Arch Linux:  makepkg -si   (run in this folder)
+pkgname=autohotkey-ux
+pkgver=2.0.19
+pkgrel=1
+pkgdesc="AutoHotkey Dash, New Script, Launch/Editor settings and Window Spy for KDE Plasma"
+arch=('x86_64')
+license=('GPL-2.0-or-later')
+depends=('gcc-libs' 'glibc' 'libxkbcommon' 'wayland' 'libx11' 'libglvnd' 'xdg-utils' 'xdg-desktop-portal')
+optdepends=(
+  'wine: run AutoHotkey scripts and Ahk2Exe'
+  'kdotool: Window Spy on KDE Plasma (Wayland)'
+  'xdotool: Window Spy on X11'
+  'xorg-xprop: window class in Window Spy on X11'
+  'imagemagick: pixel colour in Window Spy on X11'
+  'kdialog: launcher error messages'
+  'noto-fonts: the intended UI font'
+)
+makedepends=('cargo')
+source=()
+
+build() {
+  cd "$startdir"
+  cargo build --release --locked
+}
+
+package() {
+  cd "$startdir"
+  install -Dm755 target/release/autohotkey-ux "$pkgdir/usr/bin/autohotkey-ux"
+  install -Dm644 packaging/autohotkey-ux-dash.desktop "$pkgdir/usr/share/applications/autohotkey-ux-dash.desktop"
+  install -Dm644 packaging/autohotkey-ux-spy.desktop "$pkgdir/usr/share/applications/autohotkey-ux-spy.desktop"
+  install -Dm644 packaging/autohotkey.xml "$pkgdir/usr/share/mime/packages/autohotkey-ux.xml"
+  install -Dm644 packaging/autohotkey-new.desktop "$pkgdir/usr/share/templates/autohotkey-new.desktop"
+  install -Dm644 packaging/template.ahk "$pkgdir/usr/share/templates/.source/AutoHotkey Script.ahk"
+}
